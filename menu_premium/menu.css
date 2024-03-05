@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav{
+    height: 100%;
+    width: 7vw;
+    background-color: #8B00BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2vh;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.fundo_logo{
+    background-color: white;
+    border-radius: 360px;
+    height: 11.5vh;
+    width: 6vw;
+}
+
+.fundo_logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.fundo_icones{
+    border-radius: 360px;
+    padding: 1vh 0.7vw;
+}
+
+.selecionado{
+    background-color: rgba(241, 186, 252, 0.5);
+}
+
+.fundo_icones img{
+    height: 5vh;
+    width: auto;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.trocar_tema{
+    height: 6vh;
+    width: auto;
+}
+
+.foto_perfil{
+    height: 8vh;
+    width: auto;
+}
+
+.container_tarefas{
+    height: 100vh;
+    width: 40vw;
+    border-right: solid plum 0.4vw;
+    border-left: solid plum 0.4vw;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    padding-block: 2vh;
+}
+
+.tarefa{
+    width: 80%;
+    height: 16vh;
+    background-color: #E3E3E3;
+    border: solid 3px plum;
+    border-radius: 8px;
+    box-shadow: 0px 8px 5px 0px rgb(91, 91, 91);
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info_perfil{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+}
+
+.info_perfil img{
+    height: 6vh;
+}
+
+h1{
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+h2{
+    font-size: 1vw;
+}
+
+.linha_roxa{
+    width: 100%;
+    height: 0.8vh;
+    background-color: plum;
+}
+
+.tarefa_temaPreto{
+    background-color: #434141;
+}
+
+.fundo_temaPreto{
+    background-color: #202020;
+}
+
+.letra_temaPreto{
+    color: white;
+}
+
+.espaco_extra{
+    height: 100%;
+    width: 33%;
+}
+
+.premium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.botao_criar{
+    height: auto;
+    width: auto;
+    background-color: #8B00BC;
+    padding: 1vh 1vw;
+    font-size: 2vw;
+    border-radius: 12px;
+    color: white;
+}
+
+.fundo_preto{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.criar{
+    background-color: white;
+    border-radius: 12px;
+    height: 30vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.criar img{
+    height: 5vh;
+    width: 2vw;
+    margin-bottom: 0vh;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.alinhamento2{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+}
+
+textarea{
+    font-size: 0.7vw;
+    text-align: center;
+    resize: none;
+}
+
+.criarNovaTarefa{
+    background-color: #8B00BC;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    font-size: 1.3vw;
+    color: white;
+    padding: 1vh 1vw;
+}
+
+.comeco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+
+#sair{
+    font-size: 1vw;
+}

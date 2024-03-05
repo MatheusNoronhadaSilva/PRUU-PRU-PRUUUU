@@ -1,0 +1,149 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": "joao@silva.com",
+      "senha": "joao",
+      "premium": true,
+      "foto": "../img/image 34.png"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Salvagni",
+      "email": "maria@salvagni.com",
+      "senha": "maria",
+      "premium": true,
+      "foto": "../img/image 34.png"
+    },
+    {
+      "id": 3,
+      "nome": "Gabriel Pereira",
+      "email": "gabriel@pereira.com",
+      "senha": "gabriel",
+      "premium": false,
+      "foto": "../img/image 34.png"
+    },
+    {
+      "id": 4,
+      "nome": "aaaa",
+      "email": "aaaa",
+      "senha": "aaaa",
+      "premium": true,
+      "foto": "../img/image 34.png"
+    },
+    {
+      "id": 5,
+      "nome": "Matheus",
+      "email": "Matheus@gamil.com",
+      "senha": "123",
+      "premium": true
+    },
+    {
+      "id": 6,
+      "nome": "Inocente",
+      "email": "Ino@gmail.com",
+      "senha": "321",
+      "premium": false
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "descrição": "Limpar a Casa",
+      "dataConclusão": "31/01/2024",
+      "idUsuario": 1,
+      "comentarios": [
+        {
+          "id": 1,
+          "nome": "Gabriel Pereira",
+          "comentario": "Muito bom",
+          "idUsuario": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "descrição": "Aprender inglês",
+      "dataConclusão": "30/10/2024",
+      "idUsuario": 1,
+      "comentarios": []
+    },
+    {
+      "id": 3,
+      "descrição": "Novo emprego",
+      "dataConclusão": "10/02/2024",
+      "idUsuario": 3,
+      "comentarios": []
+    },
+    {
+      "id": 4,
+      "descrição": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "dataConclusão": "10/10/1000",
+      "idUsuario": 1,
+      "comentarios": []
+    },
+    {
+      "id": 6,
+      "descrição": "1212121212",
+      "dataConclusão": "121212",
+      "idUsuario": "3",
+      "comentarios": []
+    },
+    {
+      "id": 7,
+      "descrição": "Aprender inglês",
+      "dataConclusão": "30/10/2024",
+      "idUsuario": 2,
+      "comentarios": [
+        {
+          "id": 1,
+          "nome": "Gabriel Pereira",
+          "comentario": "muito bala",
+          "idUsuario": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "descrição": "Hoje choveu eeeeuu ioaapapjsjdsdshd jshfhefh h kdjfjdkfj euirueriue kjkdkfjd ksjdjshjdh ça,sç,asmn mhosond l sndsbdsbd shdshgdhsd shdvsgdffsd shdsdgsd sdjsgdjs sjdsf dkfdjfd jhdf fdjhfjd fjdnfdf dfbdnfkd fdf dfdsjgshdg sfsdhgsdhsd shdshgdhs gsbdsdhdfjfd djfhdhfhdjfhdhfjd dfbdhfhdhfdn bshdbshdsds dsjhjdjsdhsjd uwheuwyuew weywtyetwye wegwytewerte beuyrueyuryeury euyuwyuyewq sidjsiaudi9sjid kajdwhueywuqh skdhshdushd wjhduwudwued sdhsjihduihsi",
+      "dataConclusão": "30/10/2024",
+      "idUsuario": 2,
+      "comentarios": [
+        {
+          "id": 1,
+          "nome": "Gabriel Pereira",
+          "comentario": "muito bala",
+          "idUsuario": 3
+        },
+        {
+          "id": 2,
+          "nome": "Gabriel Pereira",
+          "comentario": "sasas asas asasa sasasa sasa sasas ds dsdsssssdsd",
+          "idUsuario": 3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "descrição": "aoba",
+      "dataConclusão": "20/20/2000",
+      "idUsuario": null,
+      "comentarios": []
+    },
+    {
+      "id": 10,
+      "descrição": "aoba",
+      "dataConclusão": "20/20/2000",
+      "idUsuario": "5",
+      "comentarios": []
+    },
+    {
+      "id": 11,
+      "descrição": "pru pru",
+      "dataConclusão": "14/10/1024",
+      "idUsuario": "6",
+      "comentarios": []
+    }
+  ]
+}
